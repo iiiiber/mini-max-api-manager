@@ -1,0 +1,22 @@
+# 备份文件不推
+*.tar.gz
+*.bak
+
+# 环境文件
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+
+# 数据库原始导出（已转成schema.sql）
+*.sql.gz
